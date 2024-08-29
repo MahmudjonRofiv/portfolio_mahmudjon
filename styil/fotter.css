@@ -1,0 +1,8 @@
+@media(max-width: 479px){
+    footer{
+        grid-area: footer;
+        background-color: rgb(151, 82, 82);
+        border: 1px solid red;
+    }
+    
+}

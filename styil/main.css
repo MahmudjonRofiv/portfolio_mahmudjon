@@ -1,0 +1,225 @@
+@media(max-width: 479px) {
+    .main {
+        height: 1400px;
+        grid-area: main;
+        background-color: #4E5DAB;
+        border: 1px solid white;
+        border-right: transparent;
+        border-bottom: transparent;
+
+    }
+
+    .main .wrapperabaut {
+        width: 400px;
+        height: 100%;
+        background-color: white;
+        border: 1px solid transparent;
+    }
+
+    .main .wrapperabaut .people {
+        height: 468px;
+        border: 1px solid transparent;
+    }
+
+    .main .wrapperabaut .people img {
+        width: 398px;
+        margin-top: -2px;
+    }
+
+    .main .abautpeople {
+        height: 78.5%;
+        border: 1px solid transparent;
+        background-color: white;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(7, 1fr);
+        padding: 30px
+    }
+
+    .main .abautpeople .abaut {
+        height: 130px;
+        width: 330px;
+        border: 1px solid transparent;
+    }
+
+    .main .abautpeople .hello {
+        height: 270px;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .abautpeople .abaut .iam {
+        font-size: 34px;
+        margin: 15px;
+    }
+
+    .abautpeople .abaut .job {
+        font-size: 25px;
+        margin-left: 15px;
+        color: #4E5DAB;
+    }
+
+    .abautpeople .abaut .abautinenglish {
+        margin-left: 15px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-size: 18px;
+    }
+
+    .abautpeople .abaut .freepik {
+        margin-left: 15px;
+        font-size: 19px;
+    }
+
+    .abautpeople .abaut .phon {
+        font-size: 22px;
+        margin-left: 15px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .abautpeople .abaut a .namber {
+        font-size: 22px;
+        margin-left: 15px;
+        color: #4E5DAB;
+    }
+
+    .abautpeople .telephon a {
+        text-decoration: none;
+    }
+
+    .abautpeople .abaut .email {
+        font-size: 22px;
+        margin-left: 15px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .abautpeople .gmeil a .namberemail {
+        font-size: 22px;
+        margin-left: 15px;
+        color: #4E5DAB;
+    }
+
+    .abautpeople.gmeil a {
+        text-decoration: none;
+    }
+
+    .abautpeople .abaut .adres {
+        font-size: 20px;
+        margin-left: 15px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .abautpeople .abaut .day {
+        font-size: 20px;
+        margin-left: 15px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .abautpeople.bottum {
+        height: 100px;
+    }
+
+    .abautpeople .abaut .cv {
+        width: 300px;
+        height: 70px;
+        border: 1px solid transparent;
+        border-radius: 15px;
+        background-color: #4E5DAB;
+        margin-left: 15px;
+
+    }
+
+    .abautpeople .bottum .cv p {
+        font-size: 35px;
+        text-align: center;
+        color: white;
+        margin-top: 13px;
+    }
+
+    .main #dizain {
+        height: 2000px;
+        background-color: white;
+        border: 1px solid transparent;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(7, 1fr);
+        padding: 30px;
+    }
+
+    .main #dizain .abautdizain {
+        width: 390px;
+        border: 1px solid transparent;
+    }
+
+    #dizain .abautdizain .dizainand {
+        font-size: 40px;
+        margin: 15px;
+    }
+
+    #dizain .abautdizain .abautjob {
+        font-size: 26px;
+        margin-left: 15px;
+    }
+
+    #dizain .abautdizain .spisok {
+        font-size: 23px;
+        margin: 15px;
+    }
+
+    #dizain .abautdizain .webdizainul {
+        font-size: 27px;
+        color: #4E5DAB;
+        margin: 15px;
+    }
+
+    .main .abautmyjob {
+        height: 4500px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(14, 1fr);
+        border: 1px solid transparent;
+        background-color: #292D33;
+    }
+
+    .abautmyjob .abautmyjobtext .textabautjob {
+        font-size: 45px;
+        color: white;
+        margin-left: 100px;
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+
+    .abautmyjob .abautmyjobtext .textabautmyjob {
+        font-size: 23px;
+        color: #858E88;
+    }
+    .main .abautmyjob .abautmyjobtext {
+        border: 1px solid red;
+    }
+
+    .abautmyjob .abautmyjobtext_v1 {
+        border: 1px solid aqua;
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 11;
+        grid-row-end: 15;
+    }
+    .abautmyjobtext_v1 .abautjobfreepk{
+        border: 1px solid #4E5DAB;
+        height: 200px;
+    }
+    .abautmyjobtext_v1 .abautjobfreepk .textabautfreepik{
+        font-size: 23px;
+    }
+    .abautmyjobtext_v1 .ekspertiza{
+        border: 2px solid blue;
+        height: 400px;
+        background-color: red
+    }
+
+}
