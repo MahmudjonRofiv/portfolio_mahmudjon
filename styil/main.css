@@ -203,11 +203,7 @@
 
     .abautmyjob .abautmyjobtext_v1 {
         border: 1px solid aqua;
-        display: grid;
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 11;
-        grid-row-end: 15;
+        
     }
     .abautmyjobtext_v1 .abautjobfreepk{
         border: 1px solid #4E5DAB;
