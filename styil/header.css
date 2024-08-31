@@ -38,3 +38,14 @@
         margin: 4px 0;
     }
 }
+
+
+@media(min-width: 700px){
+    header .logo img {
+        width: 150px;
+    }
+
+    .sootseti a img {
+        width: 40px;
+    }
+}
