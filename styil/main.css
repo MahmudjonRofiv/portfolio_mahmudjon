@@ -1,277 +1,1379 @@
-@media(max-width: 479px) {
-    .main {
-        height: 1400px;
-        grid-area: main;
-        background-color: #4E5DAB;
-        border: 1px solid white;
-        border-right: transparent;
-        border-bottom: transparent;
+.wrappermain {
+    background-color: #4E5DABFF;
+}
 
-    }
+.wrappesection1 {
+    min-height: 1100px;
+    border: 1px solid white;
+    border-left: 1px solid transparent;
+    display: grid;
+    grid-template-columns: 1fr 1fr 10%;
+    grid-template-rows: 1fr;
+}
 
-    .main .wrapperabaut {
-        width: 400px;
+.people {
+    >img {
+        width: 100%;
         height: 100%;
-        background-color: white;
-        border: 1px solid transparent;
     }
+}
 
-    .main .wrapperabaut .people {
-        height: 468px;
-        border: 1px solid transparent;
-    }
+.aboutwrapper {
+    background-color: white;
+    padding: 50px;
+}
 
-    .main .wrapperabaut .people img {
-        width: 398px;
-        margin-top: -2px;
-    }
+.aboutpeople .about {
+    height: 100px;
+    margin-bottom: 50px;
+}
 
-    .main .abautpeople {
-        height: 78.5%;
-        border: 1px solid transparent;
-        background-color: white;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(7, 1fr);
-        padding: 30px
-    }
+.aboutwrapper .aboutpeople .hello {
+    height: 340px;
+}
 
-    .main .abautpeople .abaut {
-        height: 130px;
-        width: 330px;
-        border: 1px solid transparent;
-    }
+.aboutwrapper .aboutpeople .hello h1 {
+    font-size: 60px;
+}
 
-    .main .abautpeople .hello {
-        height: 270px;
-        grid-row-start: 1;
-        grid-row-end: 2;
-    }
+.aboutwrapper .aboutpeople .hello .job {
+    font-size: 30px;
+    color: #4E5DABFF;
+}
 
-    .abautpeople .abaut .iam {
-        font-size: 34px;
-        margin: 15px;
-    }
+.aboutwrapper .aboutpeople .hello .aboutinenglish {
+    font-size: 20px;
+    margin-top: 30px;
+    color: #777777FF;
+    margin-bottom: 20px;
+}
 
-    .abautpeople .abaut .job {
-        font-size: 25px;
-        margin-left: 15px;
-        color: #4E5DAB;
-    }
+.aboutwrapper .aboutpeople .hello .freepik {
+    font-size: 20px;
+    color: #777777FF;
+}
 
-    .abautpeople .abaut .abautinenglish {
-        margin-left: 15px;
-        margin-top: 25px;
-        margin-bottom: 25px;
-        font-size: 18px;
-    }
+.aboutwrapper .aboutpeople .hello .freepik a {
+    color: #777777FF;
+}
 
-    .abautpeople .abaut .freepik {
-        margin-left: 15px;
-        font-size: 19px;
-    }
+.aboutpeople .telephon .phon {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
 
-    .abautpeople .abaut .phon {
-        font-size: 22px;
-        margin-left: 15px;
-        margin-top: 30px;
+.aboutpeople .telephon .namber {
+    font-size: 20px;
+    color: #4E5DABFF;
+}
+
+.aboutpeople .telephon a {
+    text-decoration: none;
+}
+
+.aboutpeople .gmeil .email {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.aboutpeople .gmeil a {
+    text-decoration: none;
+}
+
+.aboutpeople .gmeil .namberemail {
+    color: #4E5DABFF;
+    font-size: 20px;
+}
+
+.aboutpeople .aboutadres {
+    height: 50px;
+}
+
+.aboutpeople .about .adres {
+    font-size: 18px;
+}
+
+.aboutpeople .aboutadres .day {
+    font-size: 19px;
+}
+
+.aboutpeople .cv {
+    width: 300px;
+    height: 70px;
+    border: 1px solid transparent;
+    background-color: #4E5DABFF;
+    border-radius: 18px;
+}
+
+.aboutpeople .cv p {
+    font-size: 25px;
+    color: white;
+}
+
+.wrappermain #dizainwrapper {
+    border: 1px solid white;
+    min-height: 1000px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    padding: 30px 140px;
+}
+
+#dizainwrapper .abautdizain {
+    width: 270px;
+    height: 350px;
+    border: 1px solid transparent;
+    margin: auto;
+}
+
+#dizainwrapper .dizainv1 {
+    width: 900px;
+    height: 170px;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin: auto;
+    text-align: center;
+}
+
+#dizainwrapper .dizainv1 .dizainand {
+    font-size: 60px;
+}
+
+#dizainwrapper .dizainv1 .abautjob {
+    font-size: 25px;
+    width: 700px;
+    margin: auto;
+}
+
+.abautdizain .webdizainul {
+    font-size: 30px;
+    color: #4E5DABFF;
+    margin-bottom: 20px;
+}
+
+.abautdizain .spisok {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.aboutmyjob {
+    background-color: #292D33FF;
+    border: 1px solid transparent;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.aboutmyjob .textv1 {
+    width: 700px;
+    height: 200px;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin: auto;
+    text-align: center;
+}
+
+.aboutmyjob .textabautjob {
+    color: white;
+    font-size: 60px;
+
+}
+
+.aboutmyjob .textabautmyjob {
+    color: #777777FF;
+    font-size: 20px;
+}
+
+.aboutmyjob .abautmyjobtext img {
+    width: 100%;
+    height: 300px;
+}
+
+.abautmyjobtext_v1 {
+    height: 850px;
+    background-color: #292D33FF;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    padding: 30px 140px;
+}
+
+.abautmyjobtext_v1 .abautjobfreepk {
+    width: 700px;
+    height: 100px;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center;
+    margin: auto;
+    margin-top: 0;
+}
+
+.abautjobfreepk .textabautfreepik {
+    font-size: 20px;
+    color: white;
+}
+
+.abautjobfreepk .textabautfreepik a {
+    color: white;
+}
+
+.abautmyjobtext_v1 .ekspertiza {
+    width: 300px;
+    margin: auto;
+}
+
+.abautmyjobtext_v1 .ekspertiza .nawaki {
+    font-size: 25px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.ekspertiza .textekspertiza {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.ekspertiza .desatiletia {
+    color: #777777FF;
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 30px;
+}
+
+.ekspertiza .bottumekspertiza {
+    width: 250px;
+    height: 70px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color: #4E5DABFF;
+}
+
+.bottumekspertiza .resstart {
+    color: white;
+    font-size: 25px;
+}
+
+.abautmyjobtext_v1 .ulekspertiza {
+    width: 300px;
+    margin: auto;
+}
+
+.ulekspertiza .textulexpertiza {
+    font-size: 25px;
+    color: #777777FF;
+    line-height: 35px;
+}
+
+.profil {
+    background-color: white;
+    padding: 50px;
+}
+
+.profil .abautmi {
+    margin: auto;
+    text-align: center;
+}
+
+.profil .profil1 {
+    margin-bottom: 100px;
+
+    >h1 {
+        font-size: 50px;
         margin-bottom: 20px;
     }
 
-    .abautpeople .abaut a .namber {
-        font-size: 22px;
-        margin-left: 15px;
-        color: #4E5DAB;
+    >p {
+        font-size: 23px;
     }
+}
 
-    .abautpeople .telephon a {
-        text-decoration: none;
-    }
+.profil .imag .imag1 {
+    width: 300px;
+    height: 300px;
+    background-image: url(../img/12345.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+}
 
-    .abautpeople .abaut .email {
-        font-size: 22px;
-        margin-left: 15px;
-        margin-top: 30px;
-        margin-bottom: 20px;
-    }
+.profil .abautmitext {
+    width: 600px;
+    background-color: #4E5DABFF;
+    padding: 20px 30px;
+    margin-bottom: 30px;
 
-    .abautpeople .gmeil a .namberemail {
-        font-size: 22px;
-        margin-left: 15px;
-        color: #4E5DAB;
-    }
-
-    .abautpeople.gmeil a {
-        text-decoration: none;
-    }
-
-    .abautpeople .abaut .adres {
-        font-size: 20px;
-        margin-left: 15px;
-        margin-top: 30px;
-        margin-bottom: 20px;
-    }
-
-    .abautpeople .abaut .day {
-        font-size: 20px;
-        margin-left: 15px;
-        margin-top: 40px;
-        margin-bottom: 20px;
-    }
-
-    .abautpeople.bottum {
-        height: 100px;
-    }
-
-    .abautpeople .abaut .cv {
-        width: 300px;
-        height: 70px;
-        border: 1px solid transparent;
-        border-radius: 15px;
-        background-color: #4E5DAB;
-        margin-left: 15px;
-
-    }
-
-    .abautpeople .bottum .cv p {
-        font-size: 35px;
-        text-align: center;
-        color: white;
-        margin-top: 13px;
-    }
-
-    .main #dizain {
-        height: 2000px;
-        background-color: white;
-        border: 1px solid transparent;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(7, 1fr);
-        padding: 30px;
-    }
-
-    .main #dizain .abautdizain {
-        width: 390px;
-        border: 1px solid transparent;
-    }
-
-    #dizain .abautdizain .dizainand {
+    >h1 {
         font-size: 40px;
-        margin: 15px;
-    }
-
-    #dizain .abautdizain .abautjob {
-        font-size: 26px;
-        margin-left: 15px;
-    }
-
-    #dizain .abautdizain .spisok {
-        font-size: 23px;
-        margin: 15px;
-    }
-
-    #dizain .abautdizain .webdizainul {
-        font-size: 27px;
-        color: #4E5DAB;
-        margin: 15px;
-    }
-
-    .main .abautmyjob {
-        height: 4500px;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(14, 1fr);
-        border: 1px solid transparent;
-        background-color: #292D33;
-    }
-
-    .abautmyjob .abautmyjobtext .textabautjob {
-        font-size: 45px;
         color: white;
-        margin-left: 100px;
-        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    >p {
+        font-size: 20px;
+        color: white;
+        line-height: 25px;
         margin-bottom: 25px;
     }
 
-    .abautmyjob .abautmyjobtext .textabautmyjob {
-        font-size: 23px;
-        color: #858E88;
-        margin-left: 50px;
-        margin-right: 50px;
+    >i {
+        font-size: 20px;
+        color: white;
     }
 
-    .main .abautmyjob .abautmyjobtext {
-        border: 1px solid red;
+    >i>a {
+        color: white;
+    }
+}
+
+.profil .project {
+    >h2 {
+        font-size: 35px;
+        margin-bottom: 20px;
     }
 
-    .abautmyjob .abautmyjobtext_v1 {
-        border: 1px solid transparent;
-        grid-row-end: 15;
-        grid-row-start: 11;
-
+    >h3 {
+        font-size: 20px;
+        margin-bottom: 15px;
     }
 
-    .abautmyjobtext_v1 .abautjobfreepk {
-        border: 1px solid transparent;
+    >p {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+.tableage {
+    background-color: #4E5DABFF;
+    display: grid;
+    height: 800px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    padding: 50px 80px;
+}
+
+.tableage .agetable {
+    border: 1px solid transparent;
+    width: 350px;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+}
+
+.tableage .tableage1 {
+    width: 700px;
+    height: 170px;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 0;
+    border: 1px solid transparent;
+    background-color: #4E5DABFF;
+}
+
+.tableage .agetable .dizain1 {
+    color: #4E5DABFF;
+    font-size: 23px;
+    margin-bottom: 7px;
+}
+
+.tableage .agetable {
+    >h1 {
+        color: #4E5DABFF;
+        font-size: 45px;
+        margin-bottom: 5px;
+    }
+
+    >hr {
+        background-color: #777777FF;
+        margin-bottom: 15px;
+    }
+
+    >p {
+        font-size: 18px;
+        color: #777777FF;
+        margin-bottom: 15px;
+    }
+
+    >button {
+        width: 100px;
+        height: 50px;
+        border: 2px solid #4E5DABFF;
+        margin-top: 15px;
+    }
+
+    >button:hover {
+        background-color: #4E5DABFF;
+        transition: 0.5s;
+    }
+}
+
+.tableage .agetable .cyda {
+    color: #4E5DABFF;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.tableage .tableage1 {
+    >h1 {
+        color: white;
+        font-size: 60px;
+    }
+
+    >p {
+        color: white;
+        font-size: 17px;
+    }
+}
+
+.schochik {
+    background-image: url(../img/of.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.schochik .color {
+    background-color: rgba(0, 0, 0, 0.8);
+    display: grid;
+    min-height: 450px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    padding: 70px 140px;
+
+}
+
+.color .ageschochik {
+    width: 230px;
+    height: 240px;
+    border: 1.5px solid white;
+    margin: auto;
+    margin-bottom: 30px;
+
+    >h1 {
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+.ageschochik .smeil {
+    width: 130px;
+    height: 130px;
+    border: 1.5px solid white;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.color .linkage {
+    width: 300px;
+    height: 50px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border: 1.5px solid transparent;
+
+    >p>a {
+        color: white;
+    }
+}
+
+@media (min-width: 1920px) {
+    .wrappesection1 {
+        grid-template-columns: 1fr 1fr 15%;
+
+        >.aboutwrapper {
+            padding: 70px;
+
+            >.aboutpeople>.about {
+                height: 140px;
+                margin-bottom: 60px;
+
+                >.adres {
+                    font-size: 28px;
+                }
+            }
+
+            >.aboutpeople {
+                >.hello {
+                    height: 450px;
+
+                    >h1 {
+                        font-size: 75px;
+                    }
+
+                    >.job {
+                        font-size: 40px;
+                    }
+
+                    >.aboutinenglish {
+                        font-size: 30px;
+                        margin-top: 40px;
+                        margin-bottom: 30px;
+                    }
+
+                    >.freepik {
+                        font-size: 30px;
+                    }
+                }
+
+                >.telephon {
+                    >.phon {
+                        font-size: 35px;
+                        margin-bottom: 30px;
+                    }
+
+                    >a>.namber {
+                        font-size: 30px;
+                    }
+                }
+
+                >.gmeil {
+                    >.email {
+                        font-size: 35px;
+                        margin-bottom: 30px;
+                    }
+
+                    >a>.namberemail {
+                        font-size: 30px;
+                    }
+                }
+
+                >.aboutadres {
+                    height: 70px;
+
+                    >.day {
+                        font-size: 29px;
+                    }
+                }
+
+                >.cv {
+                    width: 370px;
+                    height: 100px;
+
+                    >p {
+                        font-size: 35px;
+                    }
+                }
+            }
+        }
+    }
+
+    .wrappermain #dizainwrapper {
+        height: 1300px;
+    }
+
+    #dizainwrapper .abautdizain {
+        width: 400px;
+        height: 470px;
+
+        >.webdizainul {
+            font-size: 45px;
+            margin-bottom: 25px;
+        }
+
+        >.spisok {
+            font-size: 35px;
+            margin-bottom: 20px;
+        }
+    }
+
+    #dizainwrapper .dizainv1 {
+        width: 1000px;
         height: 200px;
 
+        >.dizainand {
+            font-family: 65px;
+        }
+
+        >.abautjob {
+            font-size: 35px;
+            width: 800px;
+        }
     }
 
-    .abautmyjobtext_v1 .abautjobfreepk .textabautfreepik {
-        font-size: 23px;
-        margin-left: 110px;
-        color: white;
+    .aboutmyjob .textv1 {
+        width: 900px;
+        height: 200px;
+
+        >.textabautjob {
+            font-size: 70px;
+        }
+
+        >.textabautmyjob {
+            font-size: 30px;
+        }
     }
 
-    .abautmyjobtext_v1 .abautjobfreepk .textabautfreepik a {
-        color: white;
-    }
-
-    .abautmyjobtext_v1 .ekspertiza {
-        border: 2px solid transparent;
-        height: 400px;
-    }
-
-    .abautmyjobtext_v1 .ekspertiza .nawaki {
-        font-size: 21px;
-        margin-left: 45px;
-        color: white;
-    }
-
-    .abautmyjobtext_v1 .ekspertiza .textekspertiza {
-        font-size: 40px;
-        margin-left: 45px;
-        margin-top: 15px;
-        color: white;
-    }
-    .abautmyjobtext_v1 .ekspertiza .desatiletia{
-        color: #858E90;
-        font-size: 23px;
-        margin-top: 25px;
-        margin-left: 45px;
-    }
-    .abautmyjobtext_v1 .ekspertiza .bottumekspertiza{
-        width: 300px;
-        height: 55px;
-        border: 1px solid transparent;
-        background-color: #4E5DAB;
-        border-radius: 10px;
-        margin-left: 45px;
-        margin-top: 30px;
-    }
-    .abautmyjobtext_v1 .ekspertiza .bottumekspertiza .resstart{
-        color: white;
-        font-size: 20px;
-        display: flex;
-        align-items: end;
-        margin-top: 13px;
-        justify-content: center;
-    }
-    .abautmyjobtext_v1 .ulekspertiza{
-        border: 1px solid red;
+    .aboutmyjob .abautmyjobtext img {
+        width: 100%;
         height: 500px;
-        display: grid;
-        grid-row-start: 13;
-        grid-row-end: 15;
+    }
+
+    .abautmyjobtext_v1 {
+        height: 1200px;
+        padding: 70px 140px;
+
+        >.abautjobfreepk>.textabautfreepik {
+            font-size: 30px;
+        }
+
+        >.ekspertiza {
+            width: 400px;
+        }
+
+        >.ekspertiza>.nawaki {
+            font-size: 35px;
+            margin-bottom: 15px;
+        }
+
+        >.ekspertiza>.textekspertiza {
+            font-size: 70px;
+            margin-bottom: 25px;
+        }
+
+        >.ekspertiza>.desatiletia {
+            font-size: 40px;
+            margin-bottom: 35px;
+            line-height: 45px;
+        }
+
+        >.ekspertiza>.bottumekspertiza {
+            width: 330px;
+            height: 100px;
+
+            >.resstart {
+                font-size: 40x;
+            }
+        }
+
+        >.ulekspertiza {
+            width: 400px;
+
+            >.textulexpertiza {
+                font-size: 40px;
+                line-height: 45px;
+            }
+        }
+    }
+
+    .profil {
+        padding: 70px;
+
+        >.profil1 {
+            margin-bottom: 100px;
+
+            >h1 {
+                font-size: 60px;
+                margin-bottom: 25px;
+            }
+
+            >p {
+                font-size: 33px;
+            }
+        }
+
+        >.imag>.imag1 {
+            width: 400px;
+            height: 400px;
+            margin-bottom: 40px;
+        }
+
+        >.abautmitext {
+            width: 750px;
+            padding: 25px 35px;
+            margin-bottom: 35px;
+
+            >h1 {
+                font-size: 50px;
+                margin-bottom: 25px;
+            }
+
+            >p {
+                font-size: 30px;
+                line-height: 35px;
+            }
+
+            >i {
+                font-size: 30px;
+            }
+        }
+
+        >.project {
+            >h2 {
+                font-size: 45px;
+                margin-bottom: 30px;
+            }
+
+            >h3 {
+                font-size: 30px;
+                margin-bottom: 25px;
+            }
+
+            >p {
+                font-size: 25px;
+                margin-bottom: 25px;
+            }
+        }
+    }
+
+    .tableage {
+        height: 1250px;
+        padding: 70px 90px;
+
+        >.agetable {
+            width: 500px;
+            height: 800px;
+            padding: 35px;
+
+            >.dizain1 {
+                font-size: 33px;
+                margin-bottom: 25px;
+            }
+
+            >h1 {
+                font-size: 55px;
+                margin-bottom: 20px;
+            }
+
+            >hr {
+                margin-bottom: 35px;
+            }
+
+            >p {
+                font-size: 28px;
+                margin-bottom: 35px;
+            }
+
+            >button {
+                width: 140px;
+                height: 70px;
+                margin-top: 10px;
+            }
+
+            >.cyda {
+                font-size: 30px;
+            }
+        }
+
+        >.tableage1 {
+            width: 1000px;
+            height: 300px;
+
+            >h1 {
+                font-size: 70px;
+            }
+
+            >p {
+                font-size: 27px;
+            }
+        }
+    }
+
+    .schochik {
+        >.color {
+            height: 700px;
+            padding: 70px 120px;
+
+            >.ageschochik {
+                width: 400px;
+                height: 410px;
+                border: 2px solid white;
+
+                >h1 {
+                    font-size: 30px;
+                }
+
+                >.smeil {
+                    width: 200px;
+                    height: 200px;
+                    margin-top: 70px;
+                    margin-bottom: 50px;
+                    border: 2px solid white;
+                }
+            }
+
+            >.linkage {
+                width: 400px;
+                height: 70px;
+                font-size: 35px;
+                border: 1.5px solid transparent;
+            }
+        }
+    }
+
+}
+
+@media (min-width: 1280px) and (max-width:1919px) {
+    .wrappesection1 {
+        >.aboutwrapper {
+            padding: 70px;
+
+            >.aboutpeople>.about {
+                height: 140px;
+                margin-bottom: 60px;
+
+                >.adres {
+                    font-size: 28px;
+                }
+            }
+
+            >.aboutpeople {
+                >.hello {
+                    height: 450px;
+
+                    >h1 {
+                        font-size: 75px;
+                    }
+
+                    >.job {
+                        font-size: 40px;
+                    }
+
+                    >.aboutinenglish {
+                        font-size: 30px;
+                        margin-top: 40px;
+                        margin-bottom: 30px;
+                    }
+
+                    >.freepik {
+                        font-size: 30px;
+                    }
+                }
+
+                >.telephon {
+                    >.phon {
+                        font-size: 35px;
+                        margin-bottom: 30px;
+                    }
+
+                    >a>.namber {
+                        font-size: 30px;
+                    }
+                }
+
+                >.gmeil {
+                    >.email {
+                        font-size: 35px;
+                        margin-bottom: 30px;
+                    }
+
+                    >a>.namberemail {
+                        font-size: 30px;
+                    }
+                }
+
+                >.aboutadres {
+                    height: 70px;
+
+                    >.day {
+                        font-size: 29px;
+                    }
+                }
+
+                >.cv {
+                    width: 370px;
+                    height: 100px;
+
+                    >p {
+                        font-size: 35px;
+                    }
+                }
+            }
+        }
+    }
+
+    .wrappermain>#dizainwrapper {
+        min-height: 1300px;
+    }
+
+
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .wrappermain>#dizainwrapper {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        padding: 0;
+    }
+
+    #dizainwrapper .dizainv1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .aboutmyjob {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+
+    .aboutmyjob .textv1 {
+        grid-column-end: 3;
+    }
+
+    .abautmyjobtext_v1 {
+        padding: 30px 0;
+    }
+
+    .tableage {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr 1fr;
+        padding: 50px 30px;
+
+        >.agetable {
+            width: 300px;
+            height: 500px;
+            padding: 30px;
+        }
+
+        >.tableage1 {
+            width: 700px;
+            height: 170px;
+        }
+    }
+
+    .schochik .color {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        padding: 70px 90px;
+        height: 700px;
+    }
+
+    .color .linkage {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .wrappermain>#dizainwrapper {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        padding: 0;
+    }
+
+    #dizainwrapper {
+        >.dizainv1 {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+
+        >.dizainv1 {
+            width: 700px;
+            height: 150px;
+
+            >.dizainand {
+                font-size: 40px;
+            }
+
+            >.abautjob {
+                font-size: 20px;
+                width: 500px;
+                margin: auto;
+            }
+        }
+    }
+
+    .aboutmyjob {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+
+    .aboutmyjob .textv1 {
+        grid-column-end: 3;
+    }
+
+    .abautmyjobtext_v1 {
+        padding: 30px 0;
+
+        >.abautjobfreepk {
+            width: 600px;
+            height: 100px;
+        }
+
+        >.ekspertiza {
+            width: 250px;
+
+            >.bottumekspertiza {
+                width: 200px;
+                height: 60px;
+            }
+        }
+
+        >.ulekspertiza {
+            width: 250px;
+            margin: auto;
+        }
+    }
+
+    .tableage {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr 1fr;
+        padding: 50px 10px;
+
+        >.agetable {
+            width: 250px;
+            height: 500px;
+            padding: 30px;
+        }
+
+        >.tableage1 {
+            width: 700px;
+            height: 170px;
+        }
+    }
+
+    .schochik .color {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        padding: 70px 90px;
+        height: 700px;
+    }
+
+    .color .linkage {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+    .wrappesection1 {
+        grid-template-columns: 1fr 10%;
+        grid-template-rows: 1fr 1fr;
+        >.aboutwrapper {
+            display: grid;
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+    }
+
+    .wrappermain{
+        >#dizainwrapper {
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(7, 1fr);
+            height: 2300px;
+            padding: 0;
+            >.dizainv1 {
+                width: 450px;
+                height: 130px;
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row-start: 1;
+                grid-row-end: 2;
+    
+                >.dizainand {
+                    font-size: 30px;
+                }
+    
+                >.abautjob {
+                    font-size: 20px;
+                    color: #777777FF;
+                    width: 440px;
+                }
+            }
+        }
+    }
+
+    .aboutmyjob {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(10, 1fr);
+        .abautmyjobtext img {
+            height: 400px;
+        }
+        >.textv1 {
+            width: 450px;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 2;
+
+            >.textabautjob {
+                font-size: 45px;
+            }
+
+            >.textabautmyjob {
+                font-size: 15px;
+            }
+        }
+    }
+
+    .abautmyjobtext_v1 {
+        padding: 20px;
+        height: 1600px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+
+        >.abautjobfreepk {
+            width: 450px;
+            height: 70px;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+
+        >.ekspertiza {
+            width: 400px;
+            >.bottumekspertiza {
+                width: 200px;
+                height: 60px;
+            }
+        }
+
+        >.ulekspertiza {
+            width: 400px;
+        }
+    }
+
+    .profil {
+        padding: 10px;
+        >.imag {
+            >.imag1 {
+                width: 200px;
+                height: 200px;
+            }
+        }
+
+        >.abautmitext {
+            width: 450px;
+            background-color: #4E5DABFF;
+            padding: 10px 20px;
+            margin-bottom: 30px;
+        }
+    }
+
+    .tableage {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        padding: 50px 10px;
+        height: 1900px;
+
+        >.agetable {
+            width: 450px;
+            height: 500px;
+            padding: 30px;
+            margin-bottom: 50px;
+        }
+
+        >.tableage1 {
+            width: 450px;
+            height: 150px;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+    }
+
+    .schochik {
+        >.color {
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(5, 1fr);
+            padding: 70px 90px;
+            height: 1800px;
+            >.ageschochik{
+                width: 330px;
+                height: 340px;
+                margin-bottom: 40px;
+                >.smeil{
+                    width: 200px;
+                    height: 200px;
+                    margin-bottom: 25px;
+                }
+            }
+            >.linkage {
+                width: 300px;
+                height: 70px;
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row-start: 5;
+                grid-row-end: 6;
+            }
+        }
+    }
+}
+@media (max-width: 479px){
+    .wrappesection1 {
+        grid-template-columns: 1fr 10%;
+        grid-template-rows: 1fr 1fr;
+        >.aboutwrapper {
+            display: grid;
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+    }
+
+    .wrappermain{
+        >#dizainwrapper {
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(7, 1fr);
+            height: 2300px;
+            padding: 0;
+            >.dizainv1 {
+                width: 450px;
+                height: 130px;
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row-start: 1;
+                grid-row-end: 2;
+    
+                >.dizainand {
+                    font-size: 30px;
+                }
+    
+                >.abautjob {
+                    font-size: 20px;
+                    color: #777777FF;
+                    width: 440px;
+                }
+            }
+        }
+    }
+
+    .aboutmyjob {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(10, 1fr);
+        .abautmyjobtext img {
+            height: 400px;
+        }
+        >.textv1 {
+            width: 450px;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 2;
+
+            >.textabautjob {
+                font-size: 45px;
+            }
+
+            >.textabautmyjob {
+                font-size: 15px;
+            }
+        }
+    }
+
+    .abautmyjobtext_v1 {
+        padding: 20px;
+        height: 1600px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+
+        >.abautjobfreepk {
+            width: 450px;
+            height: 70px;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+
+        >.ekspertiza {
+            width: 400px;
+            >.bottumekspertiza {
+                width: 200px;
+                height: 60px;
+            }
+        }
+
+        >.ulekspertiza {
+            width: 400px;
+        }
+    }
+
+    .profil {
+        padding: 10px;
+        >.imag {
+            >.imag1 {
+                width: 200px;
+                height: 200px;
+            }
+        }
+
+        >.abautmitext {
+            width: 450px;
+            background-color: #4E5DABFF;
+            padding: 10px 20px;
+            margin-bottom: 30px;
+        }
+    }
+
+    .tableage {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        padding: 50px 10px;
+        height: 1900px;
+
+        >.agetable {
+            width: 450px;
+            height: 500px;
+            padding: 30px;
+            margin-bottom: 50px;
+        }
+
+        >.tableage1 {
+            width: 450px;
+            height: 150px;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+    }
+
+    .schochik {
+        >.color {
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(5, 1fr);
+            padding: 70px 90px;
+            height: 1800px;
+            >.ageschochik{
+                width: 330px;
+                height: 340px;
+                margin-bottom: 40px;
+                >.smeil{
+                    width: 200px;
+                    height: 200px;
+                    margin-bottom: 25px;
+                }
+            }
+            >.linkage {
+                width: 300px;
+                height: 70px;
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row-start: 5;
+                grid-row-end: 6;
+            }
+        }
     }
 }
